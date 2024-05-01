@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, intial-scale=1.0">
+            <title> Grocery Website</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+            <link rel="icon" href="E:\html\grocery.html\shop.png">
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+         <link rel="stylesheet" href="style.css">
+        </meta>
+        <style>
+            p {
+      font-size: 18px; /* Adjust the size as needed */
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>Grocery </a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#features">features</a>
+                <a href="#products">products</a>
+                
+                <a href="#contact">contact</a>
+            </nav>
+        
+        
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-user" id="login-btn"></div>
+            </div>
+        
+            <form action=""class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="watter.png" alt="">
+                    <div class="content">
+                        <h3>Watermelon</h3>
+                        <span class="Price">Rs.30/-</span>
+                        <span class="quantity">qty:1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="apple.png" alt="">
+                    <div class="content">
+                        <h3>Apple</h3>
+                        <span class="Price">Rs.50/-</span>
+                        <span class="quantity">qty:1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="onion.png" alt="">
+                    <div class="content">
+                        <h3>onion</h3>
+                        <span class="Price">Rs.40 /-</span>
+                        <span class="quantity">qty:1</span>
+                    </div>
+                </div>
+                <div class="total">Total:Rs.120/-</div>
+                <a href="#" class="btn">checkout</a>
+            </div>
+            <form action="" class="login-form">
+                <h3>login now</h3>
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password " class="box">
+                <p>forget password<a href="#"> click here</a></p>
+                <p>don't have an account<a href="#"> create now</a></p>
+                
+                <input type="submit" value="login now" class="btn">
+
+            </form>
+
+            </header>
+            <section class="home" id="home">
+                <div class="content">
+                    <h3 id="para"> fresh and <span>organic</span> Products for you</h3>
+                    <p>We deliver groceries and fresh vegetables in & around Madurai</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+            </section>
+            <section class="features" id="features">
+                <h1 class="heading"> our <span>features</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <img src="fruit.png" alt="">
+                        <h3>fresh and organic</h3>
+                        <p>directly from our village farm</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                    <div class="box">
+                        <img src="delivery.png" alt="">
+                        <h3>free delivery</h3>
+                        <p>for order above rs.150</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                    <div class="box">
+                        <img src="pay.png" alt="">
+                        <h3>Easy payment</h3>
+                        <p>Cash oh delivery</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+            </section>
+            <div class="products" id="products">
+                <h1 class="heading">our <span> Products</span> </h1>
+                <div class="product-box">
+                    <div class="product-container">
+                        <div class="p-img">
+                            
+                                <img src="apple.png" alt="">
+                            </div>  
+                            <div class="title">
+                                <h2>Apple</h2>
+                                <h3>Rs 50/-</h3>
+                                
+                                <a herf="#" class="btn">Add</a>
+                            </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="p-img">
+                                    
+                                        <img src="orange.png" alt="">
+                                    </div>  
+                                    <div class="title">
+                                        <h2>orange</h2>
+                                        <h3>Rs 40/-</h3>
+                                        
+                                        <a herf="#" class="btn">Add</a>
+                                    </div>
+                                    </div>
+                                    
+                            <div class="product-container">
+                                <div class="p-img">
+                                    
+                                        <img src="water.png" alt="">
+                                    </div>  
+                                    <div class="title">
+                                        <h2>Watermelon</h2>
+                                        <h3>Rs 30/-</h3>
+                                        
+                                        <a herf="#" class="btn">Add</a>
+                                    </div>
+                                    </div>
+                                    
+                            <div class="product-container">
+                                <div class="p-img">
+                                    
+                                        <img src="graphs.png" alt="">
+                                    </div>  
+                                    <div class="title">
+                                        <h2>Black Graphs</h2>
+                                        <h3>Rs 60/-</h3>
+                                       
+                                        <a herf="#" class="btn">Add</a>
+                                    </div>
+                                    </div>
+                                    <div class="product-container">
+                                        <div class="p-img">
+                                            
+                                                <img src="mango.png" alt="">
+                                            </div>  
+                                            <div class="title">
+                                                <h2>Mango</h2>
+                                                <h3>Rs 30/-</h3>
+                                                
+                                                <a herf="#" class="btn">Add</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-container">
+                                            <div class="p-img">
+                                                
+                                                    <img src="tomoto.png" alt="">
+                                                </div>  
+                                                <div class="title">
+                                                    <h2>Tomato</h2>
+                                                    <h3>Rs 25/-</h3>
+                                                    
+                                                    <a herf="#" class="btn">Add</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-container">
+                                                <div class="p-img">
+                                                    
+                                                        <img src="onion.png" alt="">
+                                                    </div>  
+                                                    <div class="title">
+                                                        <h2>Onion</h2>
+                                                        <h3>Rs 60/-</h3>
+                                                        
+                                                        <a herf="#" class="btn">Add</a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-container">
+                                                    <div class="p-img">
+                                                        
+                                                            <img src="potato.png" alt="">
+                                                        </div>  
+                                                        <div class="title">
+                                                            <h2>Potato</h2>
+                                                            <h3>Rs 40/-</h3>
+                                                           
+                                                            <a herf="#" class="btn">Add</a>
+                                                        </div>
+                                                    </div>
+                                        <div class="product-container">
+                                            <div class="p-img">
+                                                
+                                                    <img src="bro.png" alt="">
+                                                </div>  
+                                                <div class="title">
+                                                    <h2>Brocooli</h2>
+                                                    <h3>Rs 50/-</h3>
+                                                    
+                                                    <a herf="#" class="btn">Add</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-container">
+                                                <div class="p-img">
+                                                    
+                                                        <img src="cauli.png" alt="">
+                                                    </div>  
+                                                    <div class="title">
+                                                        <h2>CauliFlower</h2>
+                                                        <h3>Rs 20/-</h3>
+                                                        
+                                                        <a herf="#" class="btn">Add</a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-container">
+                                                    <div class="p-img">
+                                                        
+                                                            <img src="green.png" alt="">
+                                                        </div>  
+                                                        <div class="title">
+                                                            <h2>Greens</h2>
+                                                            <h3>Rs 15/-</h3>
+                                                        
+                                                            <a herf="#" class="btn">Add</a>
+                                                        </div>
+                                                    </div>
+                
+                
+
+                                        
+                                                    
+                                                        <div class="product-container">
+                                                            <div class="p-img">
+                                                                
+                                                                    <img src="milk.png" alt="">
+                                                                </div>  
+                                                                <div class="title">
+                                                                    <h2>Milk</h2>
+                                                                    <h3>Rs 40/-</h3>
+                                                                    
+                                                                    <a herf="#" class="btn">Add</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                
+                                                    </div>
+
+            
+
+ <div class="contact" id="contact">
+    <h1>Contact<span> us </span></h1>
+    <div class="container">
+        <div class="contact_box">
+
+            <div class="left"></div>
+            
+            <div class="right">
+            
+            <input type="text" class="field" placeholder="Your Name"> <input type="text" class="field" placeholder="Your Email">
+            
+            <input type="text" class="field" placeholder="Phone">
+            
+            <textarea class="field" placeholder="message"> </textarea>
+            
+            <button class="contact_btn">Send</button>
+            
+            </div>
+    </div>
+ </div>  
+ </div>                                                
+                                                    
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+    
+    <footer>
+        <h1>Contact Details</h1>
+        <p ><a href="#">Email:grocary@gmail.com></a></p>
+        <p>Phone: +91 123-4567</p>
+        <p>Address:12,north street,Madurai</p>
+      </footer>
+
+
+
+
+    </body>
+</html>
